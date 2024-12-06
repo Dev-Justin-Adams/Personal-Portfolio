@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="assets/newcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+
+  <body oncontextmenu="return false">
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><strong>Justin Adams</strong></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i>Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>Skills
+              </a>
+            </li>
+            
+            <li class="nav__item">
+              <a href="#projects" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>Contact-Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- main-->
+
+    <main class="main">
+      <!--========================= Home =====================-->
+
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content grid">
+            <div class="home__social">
+              <a
+                href="https://www.linkedin.com/in/venkateeshh/"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-linkedin-alt home__icon"></i>
+              </a>
+
+              <a
+                href="https://github.com/Venkateeshh"
+                target="_blank"
+                class="home__social-icon"
+              >
+                <i class="uil uil-github-alt home__icon"></i>
+              </a>
+            </div>
+            <div class="home__img">
+              <svg
+                class="home__blob"
+                viewBox="0 0 200 187"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <mask id="mask0" mask-type="alpha">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                </mask>
+                <g mask="url(#mask0)">
+                  <path
+                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
+                  />
+                  <image
+                    class="home__blob-img"
+                    x="-79"
+                    y="-46"
+                    xlink:href="./assets/pfp1.jpg"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Hi, I'm Justin Adams</h1>
+              <h3 class="home__subtitle">
+                I'm a Software Engineer
+              </h3>
+              
+              <a href="#contact" class="button button--flex">
+                Contact me<i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="home__scroll">
+            <a href="#about" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scroll-name">Scroll down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--======================= About========================-->
+
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <img src="./assets/pfp2.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <p class="about__description">
+              Hello, I'm Justin Adams, a passionate software engineer and creative designer dedicated to building engaging digital experiences. With a knack for building functional software, I specialize in crafting user friendly websites and applications that help people. My journey in tech has been fueled by love for innovation, pushing me to explore new tools and techniques o deliver impactful solutions, When I'm not coding, you can find me exploring creative outlets, learning new skills, or diving into inspiring projects. Lets create something amazing together!
+            </p>
+
+            <div class="about__info">
+             <!-- <div>
+                <span class="about__info-title">08.30+</span>
+                <span class="about__info-name">Aggregate <br />CGPA</span>
+              </div>-->
+
+              <div>
+                <span class="about__info-title">04+</span>
+                <span class="about__info-name"
+                  >
+                  Projects</span
+                >
+              </div>
+
+              <div>
+                <span class="about__info-title">01+</span>
+                <span class="about__info-name">Years <br />experience</span>
+              </div>
+            </div>
+
+            <div class="about__buttons">
+              <a download="" href="assets\MyCV.pdf" class="button button--flex">
+                Download CV<i class="fas fa-download button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--===================== SKILLS =====================-->
+
+      <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+          <div class="skills-category">
+            <h3>Languages</h3>
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Typescript</li>
+            </ul>
+          </div>
+          <div class="skills-category">
+            <h3>Technologies</h3>
+            <ul class="skills-list">
+              <li>React.js</li>
+              <li>Node.js</li>
+              <li>Next.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+              <li>PostgreSQL</li>
+              <li>Figma</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      
+          
+
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+          
+            <!-- Scientific Calculator -->
+            <div class="project-card">
+              <img src="./assets/calculator.jpg" alt="Scientific Calculator Project" class="project-image" />
+              <h3>Scientific Calculator</h3>
+              <p>A robust scientific calculator built to perform advanced mathematical operations with a user-friendly interface.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/scientific-calculator" target="_blank" class="btn">GitHub Repo</a>
+                <a href="https://example.com/scientific-calculator" target="_blank" class="btn">Live Demo</a>
+              </div>
+            </div>
+          
+            <!-- BizInfo -->
+            <div class="project-card">
+              <img src="./assets/biz.jpg" alt="BizInfo Project" class="project-image" />
+              <h3>BizInfo</h3>
+              <p>An app that lets users search for businesses based on location, providing detailed information for better accessibility. Created with Next.js</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/bizinfo" target="_blank" class="btn">GitHub Repo</a>
+                <a href="https://example.com/bizinfo" target="_blank" class="btn">Live Demo</a>
+              </div>
+            </div>
+          
+            <!-- Gen-MOM -->
+            <div class="project-card">
+              <img src="./assets/gen.jpg" alt="Gen-MOM Project" class="project-image" />
+              <h3>Gen-MOM</h3>
+              <p>A non-profit project advocating for mental health solutions using Web3 and On-chain technologies.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/gen-mom" target="_blank" class="btn">GitHub Repo</a>
+                <a href="https://example.com/gen-mom" target="_blank" class="btn">Live Demo</a>
+              </div>
+            </div>
+          
+            <!-- Web Development Website -->
+            <div class="project-card">
+              <img src="./assets/webdev.jpg" alt="Web Development Website" class="project-image" />
+              <h3>Web Development Website</h3>
+              <p>A platform where we teach others web development through detailed tutorials and interactive examples.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/web-development-website" target="_blank" class="btn">GitHub Repo</a>
+                <a href="https://example.com/web-development" target="_blank" class="btn">Live Demo</a>
+              </div>
+            </div>
+          
+            <!-- Vik Applicant Adding Application -->
+            <div class="project-card">
+              <img src="./assets/vik.jpg" alt="Vik Applicant Adding Application" class="project-image" />
+              <h3>Vik Applicant Adding Application</h3>
+              <p>A tool for Vik Human Resources to streamline applicant data collection and management. Created with Next.js and PostgreSQL used as database.</p>
+              <div class="project-links">
+                <a href="https://github.com/yourusername/vik-applicant-app" target="_blank" class="btn">GitHub Repo</a>
+                <a href="https://example.com/vik-applicant" target="_blank" class="btn">Live Demo</a>
+              </div>
+            </div>
+        
+          <!-- Add more project cards as needed -->
+        </div>
+      </section>
+
+      <!--===================== Contact Me =====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-calling contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Contact Me</h3>
+                <span class="contact__subtitle"
+                  ><a href="tel:+2347019566569"></a>+2347019566569</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-envelope-minus contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <span class="contact__subtitle"
+                  >devadamsjustin@gmail.com</span
+                >
+              </div>
+            </div>
+
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contact__subtitle"
+                  >Abuja, Nigeria.</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="" class="content__label">Name</label>
+                <input type="text" class="contact__input" />
+              </div>
+
+              <div class="contact__content">
+                <label for="" class="content__label">Email</label>
+                <input type="Email" class="contact__input" />
+              </div>
+            </div>
+
+            <div class="contact__content">
+              <label for="" class="content__label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact__input"
+              ></textarea>
+            </div>
+
+            <div>
+              <a
+                href=" mailto: rkamathvenkatesh@gmail.com?subject=Testing out mailto! &body=This is only a test!"
+                class="button button--flex"
+              >
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--================== Footer ===============-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+          <div>
+            <h1 class="footer__title">Justin Adams</h1>
+            <span class="footer__subtitle"
+              >Software Engineer</span
+            >
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#projects" class="footer__link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact" class="footer__link">Contact-Me</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.instagram.com/venkateeshh/"
+              class="footer__social"
+              target="__blank"
+            >
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/Venkateeshhh"
+              target="__blank"
+              class="footer__social"
+            >
+            <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">&#169; Justin Adams. All right reserved</p>
+      </div>
+    </footer>
+
+    <!--================== SCROLL TOP ==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+    <script src="assets/ptj.js"></script>
+  </body>
+</html>
